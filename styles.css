@@ -1,0 +1,58 @@
+html, body {
+    margin: 10px;
+    padding: 10px;
+    background-color: linen;
+    background-image:url('images/snake.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    color:linen;
+    padding-bottom:15px;
+}
+h2{
+   font-size: 35px;
+   color:linen;
+}
+.btnCont{
+    margin-top:45px;
+    text-align: right;
+}
+ #start{
+    background-color: rgb(40, 109, 121);
+    color:white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding:8px 12px;
+    
+}
+.snakeContainer{
+    display: flex;
+    justify-content: center; 
+    margin-bottom:150px;
+    padding-bottom:70px;
+    padding-left:250px;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    width:373px;
+    height:373px;
+    background-color:rgb(248, 246, 107);
+    /* border:1px solid black; */
+    border-radius:10px;
+}
+.square{
+    width:35px;
+    height:35px;
+    /* border:1px solid black; */
+    border-radius:20px;
+}
+.snake{
+    background-color: green;
+}
+.apple{
+    background-color: red;
+}
